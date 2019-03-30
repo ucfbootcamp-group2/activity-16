@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+
+<body>
+
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">New York Times Search</h1>
+
+
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="sections">Search Parameters</div>
+        <form>
+            <div class="form-group">
+                <div class="search">Search Term:</div>
+                <input type="text" class="form-control" id="search">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Number of Records to Retrieve</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>5</option>
+                    <option>10</option>
+                    <option>15</option>
+
+                </select>
+            </div>
+            <div class="start-year">
+                <div class="start">Start Year (Optional):</div>
+                <input type="text" class="form-control" id="start">
+            </div>
+            <div class="end-year">
+                <div class="start">End Year (Optional):</div>
+                <input type="text" class="form-control" id="end">
+            </div>
+            <button type="button" id="search-btn" class="btn btn-outline-dark">Search</button>
+            <button type="button" id="clear-btn" class="btn btn-outline-dark">Clear Results</button>
+        </form>
+    </div>
+   <div class="container-2">
+        <div class="sections">Top Articles</div>
+        <div id="articles"></div>
+
+   </div>
+
+
+
+
+
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
